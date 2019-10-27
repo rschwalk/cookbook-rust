@@ -13,7 +13,7 @@ git clone --depth=1 https://github.com/raspberrypi/tools.git tools
 * add to the PATH or simlink to _/usr/bin_
 ```bash
 export PATH=tools/arm-bcm2708/arm-linux-gnueabihf/bin:$PATH
-or
+__or__
 sudo ln -s [your home dir with full path]/tools/arm-bcm2708/arm-linux-gnueabihf/bin/* /usr/bin/
 ```
 * configure cargo for the target, for the project in the project directory or in the home directory for global use: add the folowing lines to _.cargo/config_
