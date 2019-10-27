@@ -12,7 +12,7 @@ rustup target add armv7-unknown-linux-gnueabihf
 git clone --depth=1 https://github.com/raspberrypi/tools.git /tmp/tools
 export PATH=/tmp/tools/arm-bcm2708/arm-linux-gnueabihf/bin:$PATH
 ```
-* configure cargo for the target for the projekt int he main directory or in home directory for global use: add the folowing lines to .cargo/config
+* configure cargo for the target, for the project in the project directory or in the home directory for global use: add the folowing lines to _.cargo/config_
 ```
 [target.armv7-unknown-linux-gnueabihf]
 linker = "arm-linux-gnueabihf-gcc"
