@@ -3,4 +3,5 @@
 members = [
     "basic_sdl",
     "tcp_single_web_server",
+    "tcp_multi_web_server",
 ]
