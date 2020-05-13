@@ -5,9 +5,11 @@ use std::net::TcpStream;
 use std::thread;
 use std::time::Duration;
 
+use tcp_multi_web_server::ThreadPool;
+
 fn main() {
     let listener = TcpListener::bind("127.0.0.1:4040").unwrap();
-    //let pool = ThreadPool::new(4);
+    let pool = ThreadPool::new(4);
 
     println!("Listening...");
 
