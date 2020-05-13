@@ -8,9 +8,21 @@
 				"$rustc"
 			],
 			"options": {
-				"cwd": "tcp_multi_web_server",
+				"cwd": "tcp_multi_web_server"
 			},
 			"label": "Rust: cargo run - tcp_multi"
+		},
+		{
+			"type": "cargo",
+			"subcommand": "build",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "Rust: cargo build - cookbook-rust"
 		}
 	]
 }
