@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cargo",
+			"subcommand": "run",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"options": {
+				"cwd": "tcp_multi_web_server",
+			},
+			"label": "Rust: cargo run - tcp_multi"
+		}
+	]
+}
