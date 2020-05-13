@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "basic_sdl",
+    "tcp_single_web_server",
+]
